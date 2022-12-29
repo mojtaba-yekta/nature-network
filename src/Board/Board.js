@@ -1,4 +1,11 @@
-import { AppBar, Button, CssBaseline, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  Button,
+  Container,
+  CssBaseline,
+  Toolbar,
+  Typography,
+} from "@mui/material";
 
 function Board() {
   return (
@@ -9,11 +16,12 @@ function Board() {
           <Typography variant="h6" color="inherit" noWrap>
             Nature Network
           </Typography>
-          <Button>About</Button>
-          <Button>Export</Button>
-          <Button>Import</Button>
+          <Button color="menu">About</Button>
+          <Button color="menu">Export</Button>
+          <Button color="menu">Import</Button>
         </Toolbar>
       </AppBar>
+      <Container maxWidth="lg"></Container>
     </>
   );
 }
